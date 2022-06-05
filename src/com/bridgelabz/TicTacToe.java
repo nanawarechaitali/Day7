@@ -299,4 +299,59 @@ public class TicTacToe {
 
 
         }
+    public static void uc9(){
+
+        if(arr[1]==arr[2] && arr[1]==user && arr[3]==' '){
+            arr[3] = computer;
+        } else if (arr[2]==arr[3] && arr[2]==user && arr[1]==' ') {
+            arr[1] = computer;
+        } else if (arr[1]==arr[3] && arr[1]==user && arr[2]==' ') {
+            arr[2] = computer;
+        } else if (arr[4]==arr[5] && arr[4]==user && arr[6]==' ') {
+            arr[6] = computer;
+        } else if (arr[5]==arr[6] && arr[5]==user && arr[4]==' ') {
+            arr[4] = computer;
+        } else if (arr[4]==arr[6] && arr[4]==user && arr[5]==' ') {
+            arr[5] = computer;
+        } else if (arr[7]==arr[8] && arr[8]==user && arr[9]==' ') {
+            arr[9] = computer;
+        } else if (arr[8]==arr[9] && arr[8]==user && arr[7]==' ') {
+            arr[7] = computer;
+        } else if (arr[9]==arr[7] && arr[7]==user && arr[8]==' ') {
+            arr[8] = computer;
+        } else if (arr[1]==arr[4] && arr[4]==user && arr[7]==' ') {
+            arr[7] = computer;
+        } else if (arr[2]==arr[5] && arr[5]==user && arr[8]==' ') {
+            arr[8] = computer;
+        } else if (arr[3]==arr[6] && arr[6]==user && arr[9]==' ') {
+            arr[9] = computer;
+        } else if (arr[1]==arr[7] && arr[7]==user && arr[4]==' ') {
+            arr[4] = computer;
+        } else if (arr[2]==arr[8] && arr[8]==user && arr[5]==' ') {
+            arr[5] = computer;
+        } else if (arr[9]==arr[3] && arr[3]==user && arr[6]==' ') {
+            arr[6] = computer;
+        } else if (arr[4]==arr[7] && arr[7]==user && arr[1]==' ') {
+            arr[1] = computer;
+        } else if (arr[5]==arr[8] && arr[8]==user && arr[2]==' ') {
+            arr[2] = computer;
+        } else if (arr[6]==arr[9] && arr[9]==user && arr[3]==' ') {
+            arr[3] = computer;
+        } else if (arr[1]==arr[5] && arr[5]==user && arr[9]==' ') {
+            arr[9] = computer;
+        } else if (arr[1]==arr[9] && arr[9]==user && arr[5]==' ') {
+            arr[5] = computer;
+        } else if (arr[9]==arr[5] && arr[5]==user && arr[1]==' ') {
+            arr[1] = computer;
+        } else if (arr[7]==arr[5] && arr[5]==user && arr[3]==' ') {
+            arr[3] = computer;
+        } else if (arr[3]==arr[5] && arr[5]==user && arr[7]==' ') {
+            arr[7] = computer;
+        } else if (arr[3]==arr[7] && arr[7]==user && arr[5]==' ') {
+            arr[5] = computer;
+        }else{
+
+        }
+    }
 }
+
