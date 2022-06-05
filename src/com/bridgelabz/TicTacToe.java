@@ -3,22 +3,30 @@ import java.util.Scanner;
 
 
 public class TicTacToe {
+    static char[] arr = new char[10];
+    static char user ;
+    static char computer;
+
+
     public static void main(String[] args) {
+
 
 
         Scanner sc = new Scanner(System.in);
 
         System.out.println("WElcome to TicTacToe Program");
-        char[] arr = new char[10];
-        uc1(arr);
+
+        uc1();
         System.out.println("Please enter your symbol , X - O");
-        uc2(arr);
-        uc3(arr);
+        uc2();
+        uc3();
+        uc4();
+
 
 
 
     }
-    static void uc1(char[] arr){
+    public static void uc1(){
 
         arr[0] = ' ';
         for(int i=1; i<10; i++){
@@ -26,7 +34,7 @@ public class TicTacToe {
 
         }
     }
-    static  void uc2(char[] arr){
+    public static  void uc2(){
         Scanner sc = new Scanner(System.in);
         char user = sc.next().charAt(0);
         char computer;
@@ -44,7 +52,7 @@ public class TicTacToe {
         }
 
     }
-    public static void uc3(char[] arr){
+    public static void uc3(){
         for (int i=1; i<4; i++){
             System.out.println(arr[i]+" | ");
 
@@ -60,7 +68,17 @@ public class TicTacToe {
         }
         System.out.println("  |  ");
     }
-
-
-
+    public static  void uc4(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println();
+        System.out.println("Choose the position (1-9");
+        int pos = sc.nextInt();
+        if(arr[pos] ==' '){
+           arr[pos] = user;
+       }else{
+           System.out.println("Entered position is empty please try again");
+           uc4();
+      }
+      uc3();
+   }
 }
