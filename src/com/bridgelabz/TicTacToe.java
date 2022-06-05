@@ -350,6 +350,20 @@ public class TicTacToe {
         } else if (arr[3]==arr[7] && arr[7]==user && arr[5]==' ') {
             arr[5] = computer;
         }else{
+            uc10();
+
+        }
+    }
+    public static void uc10(){
+        if(arr[1] == ' '){
+            arr[1] = computer;
+        }else if (arr[3] == ' '){
+            arr[3] = computer;
+        }else if (arr[7] == ' '){
+            arr[7] = computer;
+        }else if (arr[9] == ' '){
+            arr[9] = computer;
+        }else {
 
         }
     }
