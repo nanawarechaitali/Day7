@@ -80,4 +80,9 @@
       </map>
     </option>
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Day7$TicTacToe.ic" NAME="TicTacToe Coverage Results" MODIFIED="1654456324783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.bridgelabz.*</FILTER>
+    </SUITE>
+  </component>
 </project>
